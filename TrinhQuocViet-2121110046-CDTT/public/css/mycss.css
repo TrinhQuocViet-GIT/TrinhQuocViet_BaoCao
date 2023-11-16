@@ -1,0 +1,52 @@
+/* CSS để dropdown tự xổ khi rê chuột tới các mục */
+.navbar-nav li:hover .dropdown-menu {
+    display: block;
+    
+}
+.navbar-nav .nav-item .nav-link {
+    font-size: 18px; /* Điều chỉnh kích thước font chữ cho các mục menu */
+}
+.dropdown-menu .dropdown-item {
+    font-size: 16px; /* Điều chỉnh kích thước font chữ cho các mục dropdown */
+}
+.navbar-nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* Style cho nút "Thêm vào giỏ hàng" và "Yêu thích" */
+.product-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.btn-cart,
+.btn-favorite {
+    flex: 1;
+    margin-right: 5px;
+}
+/*CSS Search*/
+.container-input {
+    position: relative;
+  }
+  
+  .input {
+    width: 150px;
+    padding: 10px 0px 10px 40px;
+    border-radius: 9999px;
+    border: solid 1px #282828;
+    transition: all .2s ease-in-out;
+    outline: none;
+    opacity: 0.8;
+  }
+  
+  .container-input svg {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+  }
+  
+  .input:focus {
+    opacity: 1;
+    width: 250px;
+  }
